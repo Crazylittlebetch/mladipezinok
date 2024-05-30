@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+
+main .header{
+    padding: 3rem;
+    display: flex;
+    text-align: center;
+    background: url(/pics/pk_background.jpg);
+}
+
+main .header h2{
+    color: white;
+    font-style: bolder;
+}
+
+main .box{
+    align-items: center;
+}
+
+main .box ul{
+    display: flex;
+    border-style: none;
+    background-color: green;
+    justify-content: center;
+}
+
+main .box ul li{
+    padding: 2rem;
+    list-style: none;
+    cursor: pointer;
+    color: white;
+}
+
+main .box ul a{
+    text-decoration: none;
+}
+
+main .box ul li:hover{
+    background-color: rgb(19, 51, 19);
+}
+
+main menu{
+    display: flex;
+}
+
+main .main{
+    background-color: white;
+}
+
+main .imagine{
+    margin: 1rem;
+    padding: 5rem;
+    direction: solid;
+}
+
+main .imagine img{
+    height: 100%;
+    width: 60%;
+}
+
+.table{
+    background-color: rgb(136, 190, 136);
+    margin: 1rem;
+    padding: 10rem;
+    border-radius: 2rem;
+}
+
+.butt{
+    color: whitesmoke;
+    margin: 2rem;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 2rem;
+    border-style: none;
+    cursor: pointer;
+    font-style: bolder;
+}
+
+main .main a .IG{
+    background-color: blueviolet;
+}
+
+main .main a .FB{
+    background-color: blue;
+}
+
+main .contacts{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+}
+
+
+main .contacts a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+main .contacts a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+main .active{
+    background-color: white;
+}
+
+main .description{
+    padding: 8rem;
+    display: flex;
+}
+
+main .description img{
+    height: 50%;
+    width: 50%;
+    border-top-left-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    border-top-right-radius: 10rem;
+    border-bottom-left-radius: 10rem;
+}
+
+main .description .desc-text{
+    margin-left: 10rem;
+}
+
+main .description .desc-text p{
+    padding-top: 2rem;
+}
+
+main .faq {
+    display: flex;
+    background-color: white;
+}
+
+.part{
+    display: ruby-base;
+    justify-items: center;
+    text-align: center;
+}
+
+main .council{
+    padding: 5rem;
+    display: flex;
+}
+
+main .council .part img{
+    height: 75%;
+    width: 75%;
+    border-radius: 1rem;
+}
+
+main .council .part h3{
+    padding-top: 1rem;
+}
